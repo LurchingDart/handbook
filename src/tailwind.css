@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --sl-content-width: 60rem;
+}
+
+.meta {
+    display: none;
+}
+
+.astro-swqfyvxt {
+    padding-bottom: 0;
+}
+
+.sl-container:where(.astro-oqgx74r6)>* + * {
+    margin-top: 0;
+}
+
+.pagination-links {
+    margin-top: 3vh;
+}
+
+.hero {
+    display: flex;
+}

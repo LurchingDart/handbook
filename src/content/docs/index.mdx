@@ -1,0 +1,51 @@
+---
+title: Handbook
+description: The Handbook is a manual for build, design, collaborate, and evolve in our digital ecosystem.
+template: splash
+hero:
+  title:
+    <span
+      class="font-black text-transparent
+        bg-clip-text bg-gradient-to-b
+        from-accent-700 to-accent-400
+        dark:from-accent-500 dark:to-accent-200"
+    >
+      The Handbook
+    </span>
+  tagline: A manual for build, desing, colaborate and evolve in our digital ecosystem.
+  image:
+    file: ../../assets/purple-bat.gif
+  actions:
+    - text: Begin your journey
+      link: /start/getting-started
+      icon: right-arrow
+    - text: Join us on GitHub
+      link: https://inferno.wtf
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Next steps
+
+<CardGrid>
+	<Card title="Start your Journey" icon="rocket">
+		Some wild words or something like i don't know what to write here.
+	</Card>
+
+	<Card title="A cool title" icon="setting">
+		Yeaah another wild words or something like i don't know what to write here.
+	</Card>
+</CardGrid>
+<Card title="A full wide card, crazy!" icon="add-document">
+    Im starting to get tired of writing this, but i need to write something here.
+</Card>
+<CardGrid>
+    <Card title="Yep, another card" icon="open-book">
+        Is there something else that i can write here? I don't know.
+    </Card>
+    <Card title="OMG is this another card?" icon="github">
+        I mean, i can write anything here, but i don't know what to write.
+    </Card>
+</CardGrid>
